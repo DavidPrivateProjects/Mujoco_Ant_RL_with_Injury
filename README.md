@@ -49,8 +49,6 @@ These results highlight the nuanced relationship between action space dimensiona
   <img src="https://github.com/user-attachments/assets/d2d93fba-f28c-4821-98ea-8e5f1518037d" alt="All_Legs" width="47%" />
 </p>
 
-
-
 ## Requirements
 To run this code, you need Python 3.7 or later and the following Python packages:
 - gymnasium
@@ -89,7 +87,7 @@ To test a trained model and visualize its behavior:
 python train_ant.py Ant-v5 SAC -s ./models/all_legs_SAC_125000.zip
 This runs the agent in a rendering-enabled environment using the specified checkpoint.
 
-## Command Line Interface
+## Interface
 The script accepts the following arguments:
 
 - gymenv: Name of the Gymnasium environment (e.g., Ant-v5)
